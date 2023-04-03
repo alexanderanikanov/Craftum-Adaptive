@@ -8,23 +8,22 @@
 	overflow: hidden;
 }
 
-.mobile__wrap {
+.mobile-menu__head {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 276px;
 }
 
-
-.mobile__logo {
+.logo {
 	cursor: pointer;
 }
 
-.mobile__nav	{
+.mobile-menu__nav	{
 	margin-bottom: 210px;
 }
 
-.nav-list {
+.nav__list {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -40,14 +39,13 @@
 
 .nav__item:active {
 	transform: scale(0.9);
-	
 }
 
 .nav__link:hover {
 	color: var(--secondary-hover);
 }
 
-.login__buttons {
+.mobile-menu__foot-buttons {
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -71,41 +69,41 @@
 	transform: scale(0.9);
 }
 
-.button__primary {
+.button--primary {
 	background-color: #fff;
 	border-color: var(--primary-border-color);
 }
 
-.button__primary:hover {
+.button--primary:hover {
 	border-color: var(--primary-border-color-hover);
 }
 
-.button__primary:active {
+.button--primary:active {
 	border-color: var(--primary-border-color-pressed);
 }
 
-.button__secondary {
+.button--secondary {
 	background-color: #000;
 	color: #fff;
 }
 
-.button__secondary:hover {
+.button--secondary:hover {
 	background-color: var(--secondary-hover);
 }
 
-.button__secondary:active {
+.button--secondary:active {
 	background-color: var(--secondary-pressed);
 }
 
-.button__primary,
-.button__secondary {
+.button--primary,
+.button--secondary {
 	padding: 12px;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 20px;
 }
 
-.button__quaternary {
+.button--quaternary {
 	width: 44px;
 	height: 44px;
 	display: flex;
@@ -117,10 +115,10 @@
 	border: 1px solid var(--primary-border-color);
 }
 
-.button__quaternary:hover {
+.button--quaternary:hover {
 	border-color: var(--primary-border-color-hover);
 }
 
-.button__quaternary:active {
+.button--quaternary:active {
 	border-color: var(--primary-border-color-pressed);
 }
