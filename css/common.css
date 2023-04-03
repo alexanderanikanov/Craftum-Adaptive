@@ -1,0 +1,21 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;    
+}
+
+html {
+	font-family: 'Gilroy';
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+svg {
+	fill: currentColor;
+}
