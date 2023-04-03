@@ -1,0 +1,126 @@
+.mobile-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-width: 375px;
+	margin: 0 auto 32px;
+	padding: 18px 18px 0 18px;
+	overflow: hidden;
+}
+
+.mobile__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 276px;
+}
+
+
+.mobile__logo {
+	cursor: pointer;
+}
+
+.mobile__nav	{
+	margin-bottom: 210px;
+}
+
+.nav-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+}
+
+.nav__link {
+	color: #000;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 20px;
+}
+
+.nav__item:active {
+	transform: scale(0.9);
+	
+}
+
+.nav__link:hover {
+	color: var(--secondary-hover);
+}
+
+.login__buttons {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.button	{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	gap: 10px;
+	color: #000;
+	cursor: pointer;
+	border: 2px solid;
+	border-radius: 36px;
+	font-family: 'Gilroy';
+	font-weight: 700;
+}
+
+.button:active {
+	transform: scale(0.9);
+}
+
+.button__primary {
+	background-color: #fff;
+	border-color: var(--primary-border-color);
+}
+
+.button__primary:hover {
+	border-color: var(--primary-border-color-hover);
+}
+
+.button__primary:active {
+	border-color: var(--primary-border-color-pressed);
+}
+
+.button__secondary {
+	background-color: #000;
+	color: #fff;
+}
+
+.button__secondary:hover {
+	background-color: var(--secondary-hover);
+}
+
+.button__secondary:active {
+	background-color: var(--secondary-pressed);
+}
+
+.button__primary,
+.button__secondary {
+	padding: 12px;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.button__quaternary {
+	width: 44px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	border: none;
+	background-color: #fff;
+	border: 1px solid var(--primary-border-color);
+}
+
+.button__quaternary:hover {
+	border-color: var(--primary-border-color-hover);
+}
+
+.button__quaternary:active {
+	border-color: var(--primary-border-color-pressed);
+}

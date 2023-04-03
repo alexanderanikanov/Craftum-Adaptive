@@ -19,3 +19,7 @@ a {
 svg {
 	fill: currentColor;
 }
+
+.transition {
+	transition: .2s;
+}
