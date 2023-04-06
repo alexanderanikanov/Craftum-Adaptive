@@ -19,20 +19,20 @@
 	gap: 10px;
 }
 
-.nav__list {
+.nav-list {
 	display: flex;
 	flex-direction: row;
 	gap: 40px;
 }
 
-.nav__link {
+.nav-list__link {
 	color: #000;
 	font-weight: 700;
 	font-size: 15px;
 	line-height: 20px;
 }
 
-.nav__item:active {
+.nav-list__item:active {
 	transform: scale(0.9);
 }
 
@@ -95,7 +95,7 @@
 		display: none;
 	}
 
-	.nav__list {
+	.nav-list__list {
 		display: none;
 	}
 }
