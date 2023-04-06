@@ -2,16 +2,18 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 100%;
 	gap: 10px;
+	width: 100%;
 	color: #000;
-
 	cursor: pointer;
-
 	border: 2px solid;
 	border-radius: 36px;
 	font-family: 'Gilroy';
 	font-weight: 700;
+}
+
+.button:active {
+	transform: scale(0.9);
 }
 
 .button:active {
@@ -57,7 +59,7 @@
 	background-color: var(--tertiary-pressed);	
 }
 
-.button__quaternary {
+.button--quaternary {
 	width: 44px;
 	height: 44px;
 	display: flex;
@@ -77,42 +79,19 @@
 	border-color: var(--primary-border-color-pressed);
 }
 
-.button--social {
-	background-color: var(--button-social-bgr);
-	color: #fff;
-}
 
-.social__icon {
-	width: 22px;
-	height: 22px;
-	color: #fff;
-}
-
-.button_prev,
-.button_sec {
+.button--prev,
+.button--sec {
 	border: none;
 	filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.2));
 }
 
-.button_prev,
-.button_sec:hover {
+.button--prev,
+.button--sec:hover {
 	filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.3));
 }
 
-.button_prev,
-.button_sec:active {
+.button--prev,
+.button--sec:active {
 	filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.2));
 }
-
-
-.button--small {
-	font-size: 15px;
-	line-height: 20px;	
-	padding: 12px 18px;
-}
-
-.button--medium {
-	font-size: 18px;
-	line-height: 24px;
-}
-

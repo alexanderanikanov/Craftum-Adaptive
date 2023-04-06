@@ -6,19 +6,20 @@
 	max-width: 1460px;
 	width: 100%;
 	margin: 0 auto 96px;
+	overflow: hidden;
 }
 
 .logo {
 	cursor: pointer;
 }
 
-.header__buttons {
+.header-buttons {
 	display: flex;
 	align-items: center;
 	gap: 10px;
 }
 
-.nav-list {
+.nav__list {
 	display: flex;
 	flex-direction: row;
 	gap: 40px;
@@ -35,7 +36,7 @@
 	transform: scale(0.9);
 }
 
-.header__button {
+.header--button {
 	display: flex;
 	align-items: center;
 	gap: 8px;
@@ -48,11 +49,11 @@
 	line-height: 20px;
 }
 
-.header__button:active {
+.header--button:active {
 	transform: scale(0.9);
 }
 
-.header__button:hover {
+.header--button:hover {
 	border-color: var(--primary-border-color-hover);
 }
 
@@ -60,41 +61,41 @@
 	transition: .2s;
 }
 
-.button__primary,
-.button__tertiary {
+.button--primary,
+.button--tertiary {
 	padding: 12px 18px;
 }
 
-.button__secondary {
+.button--secondary {
 	padding: 13px;
 }
 
-.button__tertiary {
+.button--tertiary {
 	background-color: #000;
 	color: #fff;
 	border-color: #000;
 }
 
-.button__tertiary:hover {
+.button--tertiary:hover {
 	background-color: var(--secondary-hover);
 }
 
 @media (min-width: 768px) {
-	.button__secondary {
+	.button--quaternary {
 		display: none;
 	}
 
-	.button__primary {
+	.button--primary {
 		padding: 12px 24px;
 	}
 }
 
 @media (max-width: 767px) {
-	.button__tertiary {
+	.button--tertiary {
 		display: none;
 	}
 
-	.nav-list {
+	.nav__list {
 		display: none;
 	}
 }
