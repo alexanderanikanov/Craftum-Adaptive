@@ -1,0 +1,14 @@
+.index-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+	width: 100%;
+	color: #000;
+	cursor: pointer;
+	border: 2px solid;
+	border-radius: 36px;
+	font-family: 'Gilroy';
+	font-weight: 700;
+	padding: 10px;
+}
