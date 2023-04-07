@@ -66,8 +66,19 @@
 	background-color: var(--secondary-pressed);
 }
 
+.button--tertiary {
+	border: none;
+	color: #fff;
+	background-color: var(--tertiary-color);
+}
+
+.button--tertiary:hover {
+	background: var(--tertiary-hover)
+}
+
 .button--primary,
-.button--secondary {
+.button--secondary,
+.button--tertiary {
 	padding: 12px;
 	font-weight: 700;
 	font-size: 15px;
@@ -99,6 +110,10 @@
 	line-height: 24px;
 }
 
+.card--button:hover {
+	border: 2px solid var(--tertiary-hover);
+}
+
 @media (min-width: 768px) {
 	.header-buttons .button--quaternary {
 	 display: none;
@@ -116,3 +131,4 @@
 		display: none;
 	}
 }
+

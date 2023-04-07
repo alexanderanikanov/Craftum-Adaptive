@@ -1,0 +1,21 @@
+.main-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 24px;
+}
+
+.main-info__title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+}
+
+.main-info__accent {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+
