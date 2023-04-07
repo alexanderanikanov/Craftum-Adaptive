@@ -107,7 +107,7 @@
 }
 
 @media (max-width: 767px) {
- .button--tertiary {
-	 display: none;
- }
+	.header-buttons .button--tertiary {
+		display: none;
+	}
 }
