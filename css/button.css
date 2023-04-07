@@ -94,6 +94,11 @@
 	border-color: var(--primary-border-color-pressed);
 }
 
+.card--button {
+	font-size: 18px;
+	line-height: 24px;
+}
+
 @media (min-width: 768px) {
 	.header-buttons .button--quaternary {
 	 display: none;

@@ -1,0 +1,80 @@
+.cards {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 16px;
+	padding: 16px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 24px;
+	border-radius: 24px;
+	border: 2px solid	var(--primary-border-color);
+}
+
+.card:hover {
+	background: var(--tertiary-color);
+	transition: 0.5s;
+	color: #fff;
+} 
+
+.card__title {
+	display: inherit;
+	justify-content: end;
+	font-size: 16px;
+	line-height: 20px;
+	color: var(--tertiary-color);
+	margin-bottom: 20px;
+}
+
+.card__date {
+	color: #999999;
+	margin-bottom: 8px;
+}
+
+.card__discount {
+	color: var(--tertiary-color);
+}
+
+.card__date {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 24px;
+}
+
+.price {
+	display: inline-flex;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+
+.price__cost {
+	margin-right: 12px;
+}
+
+.card:hover s {
+	text-decoration-color: #000;
+}
+
+.card:hover .price__cost
+.price__discount {
+	color: #fff;
+}
+
+.card:hover .card__discount {
+	color: #000;
+}
+
+.card:hover .card__title {
+	color: var(--tertiary-card_hover);
+} 
+
+.card:hover .card__date {
+	color: var(--tertiary-card_hover);
+}
+

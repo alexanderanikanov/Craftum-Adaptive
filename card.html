@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+<head>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,12 +25,38 @@
     <link rel="icon" type="icon" href="./img/favicon.ico" />
     <link rel="stylesheet" href="./css/main.css" />
     <script src="./js/external.js"></script>
-    <title>Craftum - Конструктор сайтов</title>
+    <title>Card</title>
     <base href="" />
   </head>
-  <body>
-    <a class="index-page-link" href="header.html">Header</a>
-    <a class="index-page-link" href="mobile-menu.html">Mobile-Menu</a>
-    <a class="index-page-link" href="card.html">Card</a>
-  </body>
+</head>
+<body>
+	<div class="cards">
+		<div class="card">
+			<span class="card__title">10 дней бесплатно</span>
+			<span class="card__date">Месяц
+				<span class="card__discount"></span>
+			</span>
+			<div class="price">
+				<div class="price__cost">197₽</div>
+				<div class="price__discount"></div>
+			</div>
+			<button class="card--button button button--primary transition">
+				Выбрать
+			</button>
+		</div>
+		<div class="card">
+			<span class="card__title">10 дней бесплатно</span>
+			<span class="card__date">Год
+				<span class="card__discount">-15%</span>
+			</span>
+			<div class="price">
+				<div class="price__cost"><s>197₽</s></div>
+				<div class="price__discount">169₽ в месяц</div>
+			</div>
+			<button class="card--button button button--primary transition">
+				Выбрать
+			</button>
+		</div>
+	</div>
+</body>
 </html>

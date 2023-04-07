@@ -13,13 +13,10 @@
 	align-items: center;
 }
 
-.logo {
-	cursor: pointer;
-}
-
 .mobile-menu-nav	{
 	display: flex;
 	align-self: center;	
+	padding: 40px 0;
 }
 
 .mobile-menu-nav__list {

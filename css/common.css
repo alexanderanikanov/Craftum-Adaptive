@@ -16,6 +16,10 @@ a {
 	text-decoration: none;
 }
 
+s {
+	text-decoration-color: var(--tertiary-color);
+}
+
 svg {
 	fill: currentColor;
 }
@@ -24,3 +28,6 @@ svg {
 	transition: .2s;
 }
 
+.logo {
+	cursor: pointer;
+}
