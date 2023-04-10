@@ -12,3 +12,8 @@
 	font-weight: 700;
 	padding: 10px;
 }
+
+.index-page-link:nth-child(2n) {
+	background-color: #000;
+	color: #fff;
+}
