@@ -1,0 +1,111 @@
+.button	{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	border-radius: 24px;
+	border: 1px solid;
+	background-color: #fff;
+	color: #000;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 12px	24px;
+	cursor: pointer;
+	}
+
+.button:active {
+	transform: scale(0.9);
+}
+
+.button--long	{
+	border: 2px solid;
+	border-radius: 36px;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 16px 32px;
+	width: 100%;
+}
+
+.button--primary {
+	border-color: var(--primary-border-color);
+}
+
+.button--primary:hover {
+	border-color: var(--primary-border-color-hover);
+}
+
+.button--primary:active {
+	border-color: var(--primary-border-color-pressed);
+}
+
+.button--tertiary,
+.button--secondary {
+	color: #fff;
+}
+
+.button--secondary {
+	border-color: var(--primary-border-color);
+	background-color: var(--secondary-color);
+}
+
+.button--secondary:hover {
+	border-color: var(--secondary-hover);
+	background-color: var(--secondary-hover);
+}
+
+.button--secondary:active {
+	border-color: var(--secondary-pressed);
+	background-color: var(--secondary-pressed);
+}
+
+.button--tertiary {
+	border-color: var(--tertiary-color);
+	background-color: var(--tertiary-color);
+}
+
+.button--tertiary:hover {
+	border-color: var(--tertiary-hover);
+	background-color: var(--tertiary-hover);
+}
+
+.button--tertiary:active {
+	border-color: var(--tertiary-pressed);
+	background-color: var(--tertiary-pressed);
+}
+
+.button--quaternary,
+.button--slide {
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	border: 1px solid var(--primary-border-color);
+}
+
+.button--quaternary {
+	border-color: var(--primary-border-color);
+}
+
+.button--quaternary:hover {
+	border-color: var(--primary-border-color-hover);
+}
+
+.button--quaternary:active {
+	border-color: var(--primary-border-color-pressed);
+}
+
+.button--slide {
+	border: none;
+	filter: drop-shadow(0px 4px 24px var(--shadow-color));
+}
+
+.button--slide:hover {
+	filter: drop-shadow(0px 4px 24px var(--shadow-active));
+}
+
+.button--slide:active {
+	filter: drop-shadow(0px 2px 8px var(--shadow-color));
+}
+

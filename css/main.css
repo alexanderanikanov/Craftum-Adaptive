@@ -1,5 +1,4 @@
 @import "../css/mobile-menu.css";
-@import "../css/button.css";
 @import "../css/custom-properties.css";
 @import "../fonts/stylesheet.css";
 @import "../css/common.css";
@@ -8,5 +7,6 @@
 @import "../css/index.css";
 @import "../css/card.css";
 @import "../css/main-info.css";
+@import "../css/new-buttons.css";
 
 
