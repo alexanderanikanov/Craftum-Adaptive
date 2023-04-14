@@ -3,21 +3,27 @@
 	align-items: center;
 	justify-content: center;
 	gap: 10px;
-	border-radius: 24px;
-	border: 1px solid;
-	background-color: #fff;
 	color: #000;
 	font-family: 'Gilroy';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 15px;
-	line-height: 20px;
-	padding: 12px	24px;
 	cursor: pointer;
-	}
+}
 
 .button:active {
 	transform: scale(0.9);
+}
+
+.button--long:active {
+	transform: scale(0.97);
+}
+
+.button--short {
+	border: 1px solid;
+	border-radius: 24px;
+	font-size: 15px;
+	line-height: 20px;
+	padding: 12px	24px;
 }
 
 .button--long	{
@@ -31,6 +37,7 @@
 
 .button--primary {
 	border-color: var(--primary-border-color);
+	background-color: #fff;
 }
 
 .button--primary:hover {
@@ -78,10 +85,11 @@
 
 .button--quaternary,
 .button--slide {
-	width: 44px;
-	height: 44px;
-	padding: 0;
-	border: 1px solid var(--primary-border-color);
+	border: 1px solid var(--button--quaternary-border);
+	border-radius: 50%;
+	background-color: #fff;
+	width: 47px;
+	height: 47px;
 }
 
 .button--quaternary {

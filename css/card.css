@@ -17,7 +17,6 @@
 
 .card:hover {
 	background: var(--tertiary-color);
-	transition: 0.5s;
 	color: #fff;
 } 
 
