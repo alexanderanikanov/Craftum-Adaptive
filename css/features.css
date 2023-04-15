@@ -1,11 +1,14 @@
 .features {
 	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 	text-align: center;
 	padding: 24px;
-	gap: 70px;
+	gap: 85px;
 }
 
-.features__img {
+.features__section {
+	flex-basis: 50vh;
 }
 
 .features__title {
@@ -28,11 +31,12 @@
 	margin-bottom: 24px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 	.features__title {
 		font-size: 48px;
 		line-height: 52px;
 	}
+
 	.features__subtitle {
 		font-size: 24px;
 		line-height: 30px;
@@ -44,14 +48,18 @@
 	}
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1240px) {
 	.features {
-		flex-direction: column;
+		align-items: center;
 	}
-}
 
-@media (max-width: 1200px) {
-	.features {
-		flex-direction: column;
+	.features__title,
+	.features__subtitle,
+	.features__text {
+		text-align: start;
+	}
+
+	.features__section:nth-child(2) {
+		order: -1;
 	}
 }
