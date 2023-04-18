@@ -1,0 +1,82 @@
+.benefits {
+	text-align: center;
+	padding: 24px;
+}
+
+.benefits__list {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+	gap: 32px 8px;
+}
+
+.benefits__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.benefits__box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.benefits__circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	width: 64px;
+	height: 64px;
+	margin-bottom: 16px;
+}
+
+.benefits__circle--light-orange {
+	background: #FDF2F0;
+}
+.benefits__circle--blue {
+	background: #F4FAFE;
+}
+.benefits__circle--purple {
+	background: #F8F3FC;
+}
+.benefits__circle--green {
+	background: #F4FCF4;
+}
+.benefits__circle--orange {
+	background: #FDF4F2;
+}
+.benefits__circle--pink {
+	background: #FFF5FB;
+}
+
+.benefits__img {
+	width: 24px;
+	height: 24px;
+}
+
+@media (min-width: 768px) {
+	.benefits__list {
+		grid-template-columns: 1fr 1fr 1fr; 
+	}
+}
+
+@media (min-width: 1200px) {
+	.benefits__text {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 30px;
+	}
+	
+	.benefits__list {
+		grid-template-columns: 1fr 1fr 1fr; 
+		gap: 80px 16px;
+	}
+
+	.benefits__circle {
+		margin-bottom: 32px;
+	}
+}
+
