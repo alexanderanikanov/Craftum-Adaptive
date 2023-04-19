@@ -36,11 +36,14 @@
 }
 
 @media (min-width: 768px) {
-	
+	.advantages__list {
+		flex-direction: row;
+	}
 }
 
 @media (min-width: 1200px) {
-	.advantages__list {
-		flex-direction: row;
+	.advantages__img {
+		width: 570px;
+		height: 280px;
 	}
 }
